@@ -153,6 +153,11 @@ nav .navbar-nav a:hover {
   border-color: white;
 }
 
+#websites ul {
+  color: white;
+  margin: 10px 32px 32px 32px;
+}
+
 #test {
   border-width: 0px 2em 0px 2em;
   border-style: solid;

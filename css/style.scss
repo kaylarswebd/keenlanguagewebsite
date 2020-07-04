@@ -139,13 +139,17 @@ nav {
     h1:hover {
         text-decoration: underline;
     }
-    p {
+    p{
         color: $colorwhite;
         margin: 10px 32px 32px 32px;
         padding-bottom: 10px;
         border-width: 0px 0em 1px 0em;
         border-style: solid;
         border-color: $colorwhite;
+    }
+    ul {
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
     }
 }
 
