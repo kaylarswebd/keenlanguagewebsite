@@ -153,6 +153,30 @@ nav .navbar-nav a:hover {
   border-color: white;
 }
 
+#test {
+  border-width: 0px 2em 0px 2em;
+  border-style: solid;
+  border-color: white;
+}
+
+#test h1, #test h3 {
+  color: #DBFF3F;
+  margin: 24px;
+}
+
+#test h1:hover {
+  text-decoration: underline;
+}
+
+#test p {
+  color: white;
+  margin: 10px 32px 32px 32px;
+  padding-bottom: 10px;
+  border-width: 0px 0em 1px 0em;
+  border-style: solid;
+  border-color: white;
+}
+
 #photo {
   border-width: 0px 2em 0px 2em;
   border-style: solid;
