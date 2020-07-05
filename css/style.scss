@@ -1,6 +1,10 @@
 $colorwhite: white;
 $lagreen: #DBFF3F;
 
+h1 {
+    font-family: 'Galada', cursive;
+}
+
 // NAVIGATION
 nav {
     background-color: black;
@@ -25,8 +29,12 @@ nav {
 // landingpage
 #landing {
         height: 600px;
+        padding: 0;
+        margin: 0;
     #landingimg {
         img {
+            padding: 0;
+            margin: 0;
             width: 500px;
             height: auto;
             display: block;
@@ -47,9 +55,10 @@ nav {
         margin: 10px;
         box-shadow: 5px 10px 10px $lagreen;
         a {
+            font-family: 'Galada', cursive;
             margin: 10px;
             font-size: 2em;
-            color: $colorwhite;
+            color: $lagreen;
         }
         a:hover {
             color: $lagreen;

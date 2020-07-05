@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Galada', cursive;
+}
+
 nav {
   background-color: black;
 }
@@ -18,9 +22,13 @@ nav .navbar-nav a:hover {
 
 #landing {
   height: 600px;
+  padding: 0;
+  margin: 0;
 }
 
 #landing #landingimg img {
+  padding: 0;
+  margin: 0;
   width: 500px;
   height: auto;
   display: block;
@@ -43,9 +51,10 @@ nav .navbar-nav a:hover {
 }
 
 #links #aboutme.col a, #links #websites1.col a, #links #photography.col a {
+  font-family: 'Galada', cursive;
   margin: 10px;
   font-size: 2em;
-  color: white;
+  color: #DBFF3F;
 }
 
 #links #aboutme.col a:hover, #links #websites1.col a:hover, #links #photography.col a:hover {
