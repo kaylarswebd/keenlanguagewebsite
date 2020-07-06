@@ -91,7 +91,7 @@ nav .navbar-nav a:hover {
 }
 
 #intro {
-  border-width: 0px 2em 0px 2em;
+  border-width: .5px 2em 0px 2em;
   border-style: solid;
   border-color: white;
 }
@@ -167,8 +167,23 @@ nav .navbar-nav a:hover {
   margin: 10px 32px 32px 32px;
 }
 
-#test {
+#photo {
   border-width: 0px 2em 0px 2em;
+  border-style: solid;
+  border-color: white;
+}
+
+#photo h1 {
+  color: #DBFF3F;
+  margin: 24px;
+}
+
+#photo h1:hover {
+  text-decoration: underline;
+}
+
+#test {
+  border-width: 0px 2em .5px 2em;
   border-style: solid;
   border-color: white;
 }
@@ -189,21 +204,6 @@ nav .navbar-nav a:hover {
   border-width: 0px 0em 1px 0em;
   border-style: solid;
   border-color: white;
-}
-
-#photo {
-  border-width: 0px 2em 0px 2em;
-  border-style: solid;
-  border-color: white;
-}
-
-#photo h1 {
-  color: #DBFF3F;
-  margin: 24px;
-}
-
-#photo h1:hover {
-  text-decoration: underline;
 }
 
 #myBtn {
@@ -248,5 +248,222 @@ footer img {
 
 footer h5 {
   color: #DBFF3F;
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-family: 'Galada', cursive;
+  }
+  nav {
+    background-color: black;
+  }
+  nav .navbar-brand img {
+    width: 50px;
+    height: auto;
+  }
+  nav .navbar-nav a {
+    color: white;
+  }
+  nav .navbar-nav a:hover {
+    color: #DBFF3F;
+    text-decoration: underline;
+  }
+  #landing {
+    height: 600px;
+    padding: 0;
+    margin: 0;
+  }
+  #landing #landingimg img {
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #links {
+    margin: 10px;
+  }
+  #links #aboutme.col, #links #websites1.col, #links #photography.col {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    border: solid white;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 5px 10px 10px #DBFF3F;
+            box-shadow: 5px 10px 10px #DBFF3F;
+  }
+  #links #aboutme.col a, #links #websites1.col a, #links #photography.col a {
+    font-family: 'Galada', cursive;
+    margin: 10px;
+    font-size: 2em;
+    color: #DBFF3F;
+  }
+  #links #aboutme.col a:hover, #links #websites1.col a:hover, #links #photography.col a:hover {
+    color: #DBFF3F;
+  }
+  #links #aboutme.col p, #links #websites1.col p, #links #photography.col p {
+    margin: 24px;
+    color: white;
+  }
+  #triangle-right {
+    width: 100;
+    height: 100;
+    border-top: 250px solid transparent;
+    border-left: 500px solid #DBFF3F;
+    border-bottom: 250px solid transparent;
+    float: left;
+    z-index: -1;
+  }
+  #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 500px solid #DBFF3F;
+    border-bottom: 250px solid transparent;
+    float: right;
+    z-index: -1;
+  }
+  #line {
+    border-bottom: #DBFF3F 5px;
+  }
+  #intro {
+    border-width: .5px 2em 0px 2em;
+    border-style: solid;
+    border-color: white;
+  }
+  #intro h1 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #intro h1:hover {
+    text-decoration: underline;
+  }
+  #intro p {
+    color: white;
+    margin: 10px 32px 32px 32px;
+    padding-bottom: 10px;
+    border-width: 0px 0em 1px 0em;
+    border-style: solid;
+    border-color: white;
+  }
+  #about {
+    border-width: 0px 2em 0px 2em;
+    border-style: solid;
+    border-color: white;
+  }
+  #about h1 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #about h1:hover {
+    text-decoration: underline;
+  }
+  #about p {
+    color: white;
+    margin: 10px 32px 32px 32px;
+    padding-bottom: 10px;
+    border-width: 0px 0em 1px 0em;
+    border-style: solid;
+    border-color: white;
+  }
+  #websites {
+    border-width: 0px 2em 0px 2em;
+    border-style: solid;
+    border-color: white;
+  }
+  #websites h1 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #websites h1:hover {
+    text-decoration: underline;
+  }
+  #websites p {
+    color: white;
+    margin: 10px 32px 32px 32px;
+    padding-bottom: 10px;
+    border-width: 0px 0em 1px 0em;
+    border-style: solid;
+    border-color: white;
+  }
+  #websites ul {
+    color: white;
+    margin: 10px 32px 32px 32px;
+  }
+  #photo {
+    border-width: 0px 2em 0px 2em;
+    border-style: solid;
+    border-color: white;
+  }
+  #photo h1 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #photo h1:hover {
+    text-decoration: underline;
+  }
+  #test {
+    border-width: 0px 2em .5px 2em;
+    border-style: solid;
+    border-color: white;
+  }
+  #test h1, #test h3 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #test h1:hover {
+    text-decoration: underline;
+  }
+  #test p {
+    color: white;
+    margin: 10px 32px 32px 32px;
+    padding-bottom: 10px;
+    border-width: 0px 0em 1px 0em;
+    border-style: solid;
+    border-color: white;
+  }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #DBFF3F;
+    /* Set a background color */
+    color: black;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+  }
+  #myBtn:hover {
+    background-color: #555;
+    color: white;
+    /* Add a dark-grey background on hover */
+  }
+  footer img {
+    width: 75px;
+    height: auto;
+  }
+  footer h5 {
+    color: #DBFF3F;
+  }
 }
 /*# sourceMappingURL=style.css.map */
