@@ -250,5 +250,246 @@ nav {
 
 ///////////////////////////////////////////////////// PHONE
 @media only screen and (max-width: 450px) {
+h1 {
+    font-family: 'Galada', cursive;
+}
 
+// NAVIGATION
+nav {
+    background-color: black;
+    .navbar-brand {
+        img {
+            width: 50px;
+            height: auto;   
+        }
+        
+    }
+    .navbar-nav {
+        a {
+            color: white;
+        }
+        a:hover {
+            color: $lagreen;
+            text-decoration: underline;
+        }
+    }
+}
+
+// landingpage
+#landing {
+        height: 320px;
+        padding: 0;
+        margin: 0;
+    #landingimg {
+        img {
+            padding: 0;
+            margin: 0;
+            width: 250px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }       
+    }
+}
+
+// LINKS
+#links {
+    margin: 10px;
+    #aboutme.col, #websites1.col, #photography.col {
+        width: 100%;
+        border: solid $colorwhite;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 5px 10px 10px $lagreen;
+        background-color: $colorblack;
+        a {
+            border: 5px solid $lagreen;
+            border-radius: 25px;
+            padding: 10px;
+            font-family: 'Galada', cursive;
+            margin: 10px;
+            font-size: 2em;
+            color: $lagreen;
+        }
+        a:hover {
+            color: $lagreen;
+        }
+        p {
+            padding: 10px;
+            color: $colorwhite;
+        }
+    }
+}
+
+// ABOUT
+#triangle-right {
+    width: 100;
+    height: 100;
+    border-top: 25px solid transparent;
+    border-left: 500px solid $lagreen;
+    border-bottom: 25px solid transparent;
+    float: left;
+    z-index: -1;
+    }
+
+    #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 500px solid $lagreen;
+    border-bottom: 25px solid transparent;
+    float: right;
+    z-index: -1;
+    }
+
+#line {
+    border-bottom: $lagreen 5px;
+}
+
+#intro {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p {
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
+        padding-bottom: 10px;
+        border-width: 0px 0em 1px 0em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+}
+
+#about {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p {
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
+        padding-bottom: 10px;
+        border-width: 0px 0em 1px 0em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+}
+
+#websites {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p{
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
+        padding-bottom: 10px;
+        border-width: 0px 0em 1px 0em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+    ul {
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
+    }
+}
+
+#photo {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+}
+
+#test {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1, h3 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p {
+        color: $colorwhite;
+        margin: 32px 32px 32px 32px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-width: 0px 0em 1px .5em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+}
+
+#space {
+    height: 75px;
+}
+
+// button
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 5px black solid; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: $lagreen; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    }
+    #myBtn:hover {
+    background-color: #555;
+    color: white; /* Add a dark-grey background on hover */
+    }
+
+    footer {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: black;
+        img {
+            width: 75px;
+            height: auto;
+        }
+        h5 {
+            color: $lagreen;
+        }
+    }
 }
