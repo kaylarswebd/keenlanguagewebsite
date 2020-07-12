@@ -295,7 +295,7 @@ nav {
 
 // LINKS
 #links {
-    margin: 10px;
+    margin-top: -30px;
     #aboutme.col, #websites1.col, #photography.col {
         width: 100%;
         border: solid $colorwhite;
@@ -316,7 +316,7 @@ nav {
             color: $lagreen;
         }
         p {
-            padding: 10px;
+            padding: 8px;
             color: $colorwhite;
         }
     }
@@ -361,7 +361,7 @@ nav {
     }
     p {
         color: $colorwhite;
-        margin: 10px 32px 32px 32px;
+        margin: 10px;
         padding-bottom: 10px;
         border-width: 0px 0em 1px 0em;
         border-style: solid;
@@ -383,7 +383,7 @@ nav {
     }
     p {
         color: $colorwhite;
-        margin: 10px 32px 32px 32px;
+        margin: 10px;
         padding-bottom: 10px;
         border-width: 0px 0em 1px 0em;
         border-style: solid;
@@ -405,7 +405,7 @@ nav {
     }
     p{
         color: $colorwhite;
-        margin: 10px 32px 32px 32px;
+        margin: 10px;
         padding-bottom: 10px;
         border-width: 0px 0em 1px 0em;
         border-style: solid;
@@ -445,9 +445,8 @@ nav {
     }
     p {
         color: $colorwhite;
-        margin: 32px 32px 32px 32px;
+        margin: 10px;
         padding-bottom: 10px;
-        padding-left: 10px;
         border-width: 0px 0em 1px .5em;
         border-style: solid;
         border-color: $colorwhite;
@@ -485,7 +484,7 @@ nav {
     border-color: $colorwhite;
     background-color: black;
         img {
-            width: 75px;
+            width: 50px;
             height: auto;
         }
         h5 {
