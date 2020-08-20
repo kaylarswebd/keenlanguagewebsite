@@ -169,6 +169,31 @@ nav {
     }
 }
 
+#skills {
+    border-width: 0px 2em 0px 2em;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p {
+        color: $colorwhite;
+        margin: 10px 32px 32px 32px;
+        padding-bottom: 10px;
+        border-width: 0px 0em 1px 0em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+
+
+}
+
+
 #photo {
     border-width: 0px 2em 0px 2em;
     border-style: solid;
@@ -416,6 +441,31 @@ nav {
         margin: 10px 32px 32px 32px;
     }
 }
+
+#skills {
+    border-width: 0;
+    border-style: solid;
+    border-color: $colorwhite;
+    background-color: $colorblack;
+    h1 {
+        color: $lagreen;
+        margin: 24px;
+    }
+    h1:hover {
+        text-decoration: underline;
+    }
+    p {
+        color: $colorwhite;
+        margin: 10px;
+        padding-bottom: 10px;
+        border-width: 0px 0em 1px 0em;
+        border-style: solid;
+        border-color: $colorwhite;
+    }
+
+
+}
+
 
 #photo {
     border-width: 0;

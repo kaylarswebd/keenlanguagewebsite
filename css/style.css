@@ -173,6 +173,31 @@ nav .navbar-nav a:hover {
   margin: 10px 32px 32px 32px;
 }
 
+#skills {
+  border-width: 0px 2em 0px 2em;
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+}
+
+#skills h1 {
+  color: #DBFF3F;
+  margin: 24px;
+}
+
+#skills h1:hover {
+  text-decoration: underline;
+}
+
+#skills p {
+  color: white;
+  margin: 10px 32px 32px 32px;
+  padding-bottom: 10px;
+  border-width: 0px 0em 1px 0em;
+  border-style: solid;
+  border-color: white;
+}
+
 #photo {
   border-width: 0px 2em 0px 2em;
   border-style: solid;
@@ -413,6 +438,27 @@ footer h5 {
   #websites ul {
     color: white;
     margin: 10px 32px 32px 32px;
+  }
+  #skills {
+    border-width: 0;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+  }
+  #skills h1 {
+    color: #DBFF3F;
+    margin: 24px;
+  }
+  #skills h1:hover {
+    text-decoration: underline;
+  }
+  #skills p {
+    color: white;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-width: 0px 0em 1px 0em;
+    border-style: solid;
+    border-color: white;
   }
   #photo {
     border-width: 0;
