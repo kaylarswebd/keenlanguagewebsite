@@ -326,6 +326,9 @@ footer h5 {
   #links {
     margin-top: -30px;
   }
+  #links #aboutme.col {
+    margin-top: 25px;
+  }
   #links #aboutme.col, #links #websites1.col, #links #photography.col {
     width: 100%;
     border: solid white;

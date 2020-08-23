@@ -321,6 +321,9 @@ nav {
 // LINKS
 #links {
     margin-top: -30px;
+    #aboutme.col {
+        margin-top: 25px;
+    }
     #aboutme.col, #websites1.col, #photography.col {
         width: 100%;
         border: solid $colorwhite;
