@@ -100,6 +100,12 @@ nav {
 }
 
 #intro {
+    img {
+        height: 250px; 
+        border-radius: 150px; 
+        float: left; 
+        padding: 10px; 
+    }
     border-width: .5px 2em 0px 2em;
     border-style: solid;
     border-color: $colorwhite;
@@ -373,6 +379,13 @@ nav {
 }
 
 #intro {
+    img {
+        height: 250px; 
+        border-radius: 150px; 
+        float: none; 
+        padding: 10px; 
+        text-align: center;
+    }
     border-width: 0;
     border-style: solid;
     border-color: $colorwhite;

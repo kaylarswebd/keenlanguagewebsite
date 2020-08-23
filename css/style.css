@@ -100,6 +100,13 @@ nav .navbar-nav a:hover {
   background-color: black;
 }
 
+#intro img {
+  height: 250px;
+  border-radius: 150px;
+  float: left;
+  padding: 10px;
+}
+
 #intro h1 {
   color: #DBFF3F;
   margin: 24px;
@@ -377,6 +384,13 @@ footer h5 {
     border-style: solid;
     border-color: white;
     background-color: black;
+  }
+  #intro img {
+    height: 250px;
+    border-radius: 150px;
+    float: none;
+    padding: 10px;
+    text-align: center;
   }
   #intro h1 {
     color: #DBFF3F;
