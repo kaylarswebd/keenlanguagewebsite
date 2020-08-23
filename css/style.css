@@ -291,7 +291,7 @@ footer h5 {
   color: #DBFF3F;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   h1 {
     font-family: 'Galada', cursive;
   }
@@ -324,10 +324,7 @@ footer h5 {
     margin-right: auto;
   }
   #links {
-    margin-top: -30px;
-  }
-  #links #aboutme.col {
-    margin-top: 25px;
+    margin-top: 30px;
   }
   #links #aboutme.col, #links #websites1.col, #links #photography.col {
     width: 100%;

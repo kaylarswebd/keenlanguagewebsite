@@ -274,7 +274,7 @@ nav {
 
 
 ///////////////////////////////////////////////////// PHONE
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
 h1 {
     font-family: 'Galada', cursive;
 }
@@ -320,10 +320,7 @@ nav {
 
 // LINKS
 #links {
-    margin-top: -30px;
-    #aboutme.col {
-        margin-top: 25px;
-    }
+    margin-top: 30px;
     #aboutme.col, #websites1.col, #photography.col {
         width: 100%;
         border: solid $colorwhite;
