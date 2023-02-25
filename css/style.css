@@ -1,20 +1,17 @@
 h1 {
-  font-family: 'Galada', cursive;
+  font-family: "Galada", cursive;
 }
 
 nav {
   background-color: black;
 }
-
 nav .navbar-brand img {
   width: 50px;
   height: auto;
 }
-
 nav .navbar-nav a {
   color: white;
 }
-
 nav .navbar-nav a:hover {
   color: #DBFF3F;
   text-decoration: underline;
@@ -25,7 +22,6 @@ nav .navbar-nav a:hover {
   padding: 0;
   margin: 0;
 }
-
 #landing #landingimg img {
   padding: 0;
   margin: 0;
@@ -39,31 +35,26 @@ nav .navbar-nav a:hover {
 #links {
   margin: 10px;
 }
-
 #links #aboutme.col, #links #websites1.col, #links #photography.col {
   width: 100%;
   border: solid white;
   border-radius: 10px;
   margin: 10px;
-  -webkit-box-shadow: 5px 10px 10px #DBFF3F;
-          box-shadow: 5px 10px 10px #DBFF3F;
+  box-shadow: 5px 10px 10px #DBFF3F;
   background-color: black;
 }
-
 #links #aboutme.col a, #links #websites1.col a, #links #photography.col a {
   border: 5px solid #DBFF3F;
   border-radius: 25px;
   padding: 10px;
-  font-family: 'Galada', cursive;
+  font-family: "Galada", cursive;
   margin: 10px;
   font-size: 2em;
   color: #DBFF3F;
 }
-
 #links #aboutme.col a:hover, #links #websites1.col a:hover, #links #photography.col a:hover {
   color: #DBFF3F;
 }
-
 #links #aboutme.col p, #links #websites1.col p, #links #photography.col p {
   padding: 10px;
   color: white;
@@ -94,28 +85,24 @@ nav .navbar-nav a:hover {
 }
 
 #intro {
-  border-width: .5px 2em 0px 2em;
+  border-width: 0.5px 1em 0px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #intro img {
   height: 250px;
   border-radius: 150px;
   float: left;
   padding: 10px;
 }
-
 #intro h1 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #intro h1:hover {
   text-decoration: underline;
 }
-
 #intro p {
   color: white;
   margin: 10px 32px 32px 32px;
@@ -126,21 +113,18 @@ nav .navbar-nav a:hover {
 }
 
 #about {
-  border-width: 0px 2em 0px 2em;
+  border-width: 0px 1em 0px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #about h1 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #about h1:hover {
   text-decoration: underline;
 }
-
 #about p {
   color: white;
   margin: 10px 32px 32px 32px;
@@ -151,21 +135,18 @@ nav .navbar-nav a:hover {
 }
 
 #websites {
-  border-width: 0px 2em 0px 2em;
+  border-width: 0px 1em 0px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #websites h1 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #websites h1:hover {
   text-decoration: underline;
 }
-
 #websites p {
   color: white;
   margin: 10px 32px 32px 32px;
@@ -174,28 +155,24 @@ nav .navbar-nav a:hover {
   border-style: solid;
   border-color: white;
 }
-
 #websites ul {
   color: white;
   margin: 10px 32px 32px 32px;
 }
 
 #skills {
-  border-width: 0px 2em 0px 2em;
+  border-width: 0px 1em 0px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #skills h1 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #skills h1:hover {
   text-decoration: underline;
 }
-
 #skills p {
   color: white;
   margin: 10px 32px 32px 32px;
@@ -206,101 +183,80 @@ nav .navbar-nav a:hover {
 }
 
 #photo {
-  border-width: 0px 2em 0px 2em;
+  border-width: 0px 1em 0px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #photo h1 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #photo h1:hover {
   text-decoration: underline;
 }
 
 #test {
-  border-width: 0px 2em .5px 2em;
+  border-width: 0px 1em 0.5px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 #test h1, #test h3 {
   color: #DBFF3F;
   margin: 24px;
 }
-
 #test h1:hover {
   text-decoration: underline;
 }
-
 #test p {
   color: white;
   margin: 32px 32px 32px 32px;
   padding-bottom: 10px;
   padding-left: 10px;
-  border-width: 0px 0em 1px .5em;
+  border-width: 0px 0em 1px 0.5em;
   border-style: solid;
   border-color: white;
 }
 
 #myBtn {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Fixed/sticky position */
-  bottom: 20px;
-  /* Place the button at the bottom of the page */
-  right: 30px;
-  /* Place the button 30px from the right */
-  z-index: 99;
-  /* Make sure it does not overlap */
-  border: 5px black solid;
-  /* Remove borders */
-  outline: none;
-  /* Remove outline */
-  background-color: #DBFF3F;
-  /* Set a background color */
-  color: black;
-  /* Text color */
-  cursor: pointer;
-  /* Add a mouse pointer on hover */
-  padding: 15px;
-  /* Some padding */
-  border-radius: 50px;
-  /* Rounded corners */
-  font-size: 18px;
-  /* Increase font size */
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 5px black solid; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #DBFF3F; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
 
 #myBtn:hover {
   background-color: #555;
-  color: white;
-  /* Add a dark-grey background on hover */
+  color: white; /* Add a dark-grey background on hover */
 }
 
 footer {
-  border-width: 0px 2em .5px 2em;
+  border-width: 0px 1em 0.5px 1em;
   border-style: solid;
   border-color: white;
   background-color: black;
 }
-
 footer img {
   width: 75px;
   height: auto;
 }
-
 footer h5 {
   color: #DBFF3F;
 }
 
 @media only screen and (max-width: 550px) {
   h1 {
-    font-family: 'Galada', cursive;
+    font-family: "Galada", cursive;
   }
   nav {
     background-color: black;
@@ -338,15 +294,14 @@ footer h5 {
     border: solid white;
     border-radius: 10px;
     margin: 10px;
-    -webkit-box-shadow: 5px 10px 10px #DBFF3F;
-            box-shadow: 5px 10px 10px #DBFF3F;
+    box-shadow: 5px 10px 10px #DBFF3F;
     background-color: black;
   }
   #links #aboutme.col a, #links #websites1.col a, #links #photography.col a {
     border: 5px solid #DBFF3F;
     border-radius: 25px;
     padding: 10px;
-    font-family: 'Galada', cursive;
+    font-family: "Galada", cursive;
     margin: 10px;
     font-size: 2em;
     color: #DBFF3F;
@@ -504,7 +459,7 @@ footer h5 {
     color: white;
     margin: 10px;
     padding-bottom: 10px;
-    border-width: 0px 0em 1px .5em;
+    border-width: 0px 0em 1px 0.5em;
     border-style: solid;
     border-color: white;
   }
@@ -512,37 +467,23 @@ footer h5 {
     height: 75px;
   }
   #myBtn {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    left: 30px;
-    /* Place the button 30px from the right */
-    z-index: 99;
-    /* Make sure it does not overlap */
-    border: 5px black solid;
-    /* Remove borders */
-    outline: none;
-    /* Remove outline */
-    background-color: #DBFF3F;
-    /* Set a background color */
-    color: black;
-    /* Text color */
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
-    padding: 15px;
-    /* Some padding */
-    border-radius: 50px;
-    /* Rounded corners */
-    font-size: 18px;
-    /* Increase font size */
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 5px black solid; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #DBFF3F; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
   }
   #myBtn:hover {
     background-color: #555;
-    color: white;
-    /* Add a dark-grey background on hover */
+    color: white; /* Add a dark-grey background on hover */
   }
   footer {
     border-width: 0;
@@ -557,5 +498,4 @@ footer h5 {
   footer h5 {
     color: #DBFF3F;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
