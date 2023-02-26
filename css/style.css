@@ -317,7 +317,7 @@ footer h5 {
     width: 100;
     height: 100;
     border-top: 25px solid transparent;
-    border-left: 500px solid #DBFF3F;
+    border-left: 400px solid #DBFF3F;
     border-bottom: 25px solid transparent;
     float: left;
     z-index: -1;
@@ -326,7 +326,7 @@ footer h5 {
     width: 0;
     height: 0;
     border-top: 25px solid transparent;
-    border-right: 500px solid #DBFF3F;
+    border-right: 400px solid #DBFF3F;
     border-bottom: 25px solid transparent;
     float: right;
     z-index: -1;
@@ -467,10 +467,11 @@ footer h5 {
     height: 75px;
   }
   #myBtn {
+    width: 50px;
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    left: 30px; /* Place the button 30px from the right */
+    right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: 5px black solid; /* Remove borders */
     outline: none; /* Remove outline */
