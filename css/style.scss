@@ -6,6 +6,10 @@ h1 {
     font-family: 'Galada', cursive;
 }
 
+#greeting {
+    padding-top: 12px;
+}
+
 // NAVIGATION
 nav {
     background-color: black;
@@ -32,13 +36,8 @@ nav {
 // landingpage
 #landing {
     height: 600px;
-    padding: 0;
-    margin: 0;
-
     #landingimg {
         img {
-            padding: 0;
-            margin: 0;
             width: 500px;
             height: auto;
             display: block;
@@ -48,203 +47,41 @@ nav {
     }
 }
 
-// LINKS
-#links {
-    margin: 10px;
-    #aboutme.col,
-    #websites1.col,
-    #photography.col {
-        width: 100%;
-        border: solid $colorwhite;
-        border-radius: 10px;
-        margin: 10px;
-        box-shadow: 5px 10px 10px $lagreen;
-        background-color: $colorblack;
-
-        a {
-            border: 5px solid $lagreen;
-            border-radius: 25px;
-            padding: 10px;
-            font-family: 'Galada', cursive;
-            margin: 10px;
-            font-size: 2em;
-            color: $lagreen;
-        }
-
-        a:hover {
-            color: $lagreen;
-        }
-
-        p {
-            padding: 10px;
-            color: $colorwhite;
-        }
-    }
-}
-
-// ABOUT
-#line {
-    border-bottom: $lagreen 5px;
-}
-
-#intro {
+#intro,
+#about,
+#skills,
+#websites,
+#photo {
+    background-color: $colorblack;
     img {
-        height: 250px;
+        height: 300px;
         border-radius: 50px;
         float: left;
         padding: 10px;
     }
-
-    border-width: .5px 1em 0px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
-
-    h1 {
+    h1, h2, h3, h4, h5 {
         color: $lagreen;
-        margin: 20px;
-    }
 
+    }
     h1:hover {
         text-decoration: underline;
     }
-
     p {
         color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-        padding-bottom: 10px;
-        border-width: 0px 0em 1px 0em;
-        border-style: solid;
-        border-color: $colorwhite;
     }
 }
 
-#about {
-    border-width: 0px 1em 0px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
 
-    h1 {
+footer {
+    background-color: black;
+
+    img {
+        width: 75px;
+        height: auto;
+    }
+
+    h5 {
         color: $lagreen;
-        margin: 24px;
-    }
-
-    h1:hover {
-        text-decoration: underline;
-    }
-
-    p {
-        color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-        padding-bottom: 10px;
-        border-width: 0px 0em 1px 0em;
-        border-style: solid;
-        border-color: $colorwhite;
-    }
-}
-
-#skills {
-    border-width: 0px 1em 0px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
-
-    h1 {
-        color: $lagreen;
-        margin: 24px;
-    }
-
-    h1:hover {
-        text-decoration: underline;
-    }
-
-    p {
-        color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-        padding-bottom: 10px;
-        border-width: 0px 0em 0px 0em;
-        border-style: solid;
-        border-color: $colorwhite;
-    }
-
-    ul {
-        color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-    }
-}
-
-#websites {
-    border-width: 0px 1em 0px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
-
-    h1 {
-        color: $lagreen;
-        margin: 24px;
-    }
-
-    h1:hover {
-        text-decoration: underline;
-    }
-
-    p {
-        color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-        padding-bottom: 10px;
-        border-width: 0px 0em 1px 0em;
-        border-style: solid;
-        border-color: $colorwhite;
-    }
-
-    ul {
-        color: $colorwhite;
-        margin: 10px 32px 32px 32px;
-    }
-}
-
-#photo {
-    border-width: 0px 1em 0px 1em;
-    height: auto;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
-
-    h1 {
-        color: $lagreen;
-        margin: 24px;
-    }
-
-    h1:hover {
-        text-decoration: underline;
-    }
-}
-
-#test {
-    border-width: 0px 1em .5px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: $colorblack;
-
-    h1,
-    h3 {
-        color: $lagreen;
-        margin: 24px;
-    }
-
-    h1:hover {
-        text-decoration: underline;
-    }
-
-    p {
-        color: $colorwhite;
-        margin: 32px 32px 32px 32px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        border-width: 0px 0em 1px .5em;
-        border-style: solid;
-        border-color: $colorwhite;
     }
 }
 
@@ -284,21 +121,7 @@ nav {
     /* Add a dark-grey background on hover */
 }
 
-footer {
-    border-width: 0px 1em .5px 1em;
-    border-style: solid;
-    border-color: $colorwhite;
-    background-color: black;
 
-    img {
-        width: 75px;
-        height: auto;
-    }
-
-    h5 {
-        color: $lagreen;
-    }
-}
 
 
 ///////////////////////////////////////////////////// TABLET
