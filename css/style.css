@@ -73,13 +73,6 @@ nav .navbar-nav a:hover {
 #photo h5 {
   color: #DBFF3F;
 }
-#intro h1:hover,
-#about h1:hover,
-#skills h1:hover,
-#websites h1:hover,
-#photo h1:hover {
-  text-decoration: underline;
-}
 #intro p,
 #about p,
 #skills p,
