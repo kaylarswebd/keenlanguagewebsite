@@ -81,6 +81,10 @@ nav .navbar-nav a:hover {
   color: white;
 }
 
+#photo img {
+  height: auto;
+}
+
 footer {
   background-color: black;
 }
