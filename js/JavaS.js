@@ -35,11 +35,11 @@ var curHr = today.getHours()
 if (curHr >= 1 && curHr < 6) {
     document.getElementById("greeting").innerHTML = 'What are you doing up this early?';
 } else if (curHr >= 6 && curHr <= 12) {
-    document.getElementById("greeting").innerHTML = 'Good Morning and welcome!';
+    document.getElementById("greeting").innerHTML = 'Good Morning and welcome to Keen Landuage Web Design and Development!';
 } else if (curHr >= 12 && curHr < 17) {
-    document.getElementById("greeting").innerHTML = 'Good Afternoon and welcome!';
+    document.getElementById("greeting").innerHTML = 'Good Afternoon and welcome to Keen Landuage Web Design and Development!';
 } else {
-    document.getElementById("greeting").innerHTML = 'Good Evening and welcome!';
+    document.getElementById("greeting").innerHTML = 'Good Evening and welcome to Keen Landuage Web Design and Development!';
 }
 
 //TIME AND DATE
