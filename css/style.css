@@ -18,7 +18,7 @@ nav .navbar-nav a {
   color: white;
 }
 nav .navbar-nav a:hover {
-  color: #DBFF3F;
+  color: #f582f5;
   text-decoration: underline;
 }
 
@@ -70,7 +70,7 @@ nav .navbar-nav a:hover {
 #photo h3,
 #photo h4,
 #photo h5 {
-  color: #DBFF3F;
+  color: #f582f5;
 }
 #intro p,
 #about p,
@@ -92,7 +92,7 @@ footer img {
   height: auto;
 }
 footer h5 {
-  color: #DBFF3F;
+  color: #f582f5;
 }
 
 #myBtn {
@@ -110,7 +110,7 @@ footer h5 {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: #DBFF3F;
+  background-color: #f582f5;
   /* Set a background color */
   color: black;
   /* Text color */
